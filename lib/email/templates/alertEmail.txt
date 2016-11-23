@@ -1,0 +1,34 @@
+Hello,
+
+The following alert has been received by our monitoring systems. You are listed as a recipient for alerts of this type:
+<p>
+<u><b>Application Details:</b></u><br/>
+
+Application Name: <b> %appName% </b><br/>
+Unique Application Id: <b> %appGuid% </b><br/>
+Application URL: <a href="%appUrl%"> %appUrl% </a><br/>
+</p>
+
+<p>
+<u><b>Alert Details:</b></u><br/>
+Alert Name: <b> %alertName% </b><br/>
+</p>
+
+<p>
+<u><b>Event Details:</b></u><br/>
+Event Date/Time: <b> %eventTimestamp% </b><br/>
+Updated By: <b> %updatedBy% </b><br/>
+Event Message: <b> %eventMessage% </b><br/>
+Event Category: <b> %eventCategory% </b><br/>
+Event Name: <b> %eventName% </b><br/>
+Event Severity: <b> %eventSeverity% </b><br/>
+Event Specific Details:<br/>
+<pre>
+%eventDetails%
+</pre>
+</p>
+
+<p>
+Regards,<br/>
+%providerName%
+</p>

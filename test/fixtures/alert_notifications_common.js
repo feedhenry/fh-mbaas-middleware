@@ -1,0 +1,11 @@
+exports.alertResp = [ { alertName: 'test alert',
+  emails: 'test@test.com',
+  eventCategories: 'APP_STATE',
+  eventNames: 'START_REQUESTED',
+  eventSeverities: 'INFO',
+  uid: '5gycxbnv3m5woqgkl5cduafb',
+  env: 'dev',
+  alertEnabled: true,
+  _id: '55db84b368464f790e79d76f',
+  domain: 'testing',
+  __v: 0 } ];
