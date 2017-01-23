@@ -1,5 +1,5 @@
 ## fh-mbaas-middleware - FeedHenry MBaaS Middleware config
-
+ 
 * Create a module that can be used by both fh-mbaas and the new fh-mbaas-service (for openshift)
 
 ### Testing
