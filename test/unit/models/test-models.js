@@ -4,7 +4,7 @@ var mockMongo = require('../../fixtures/mocksetup.js');
 var EventEmitter = require('events').EventEmitter;
 
 var dbConf = {
-  host: 'localhost',
+  host: process.env.MONGODB_HOST || 'localhost',
   port: 27017,
   name: 'test',
   user: 'testuser',
@@ -14,7 +14,7 @@ var dbConf = {
 var config = {
   mongoUrl: 'http://somemongodb',
   mongo:{
-    host: 'localhost',
+    host: process.env.MONGODB_HOST || 'localhost',
     port: 27017,
     name: 'test-fhmbaas-accept',
     auth: {
