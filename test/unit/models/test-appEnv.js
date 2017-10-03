@@ -1,6 +1,6 @@
 var mockMongo = require('../../fixtures/mocksetup.js');
 var dbConf = {
-  host: 'localhost',
+  host: process.env.MONGODB_HOST || 'localhost',
   port: 27017,
   name: 'test',
   user: 'testuser',
@@ -14,7 +14,7 @@ var config = {
   },
   mongo:{
     enabled: true,
-    host: 'localhost',
+    host: process.env.MONGODB_HOST || 'localhost',
     port: 27017,
     name: 'test-fhmbaas-accept',
     auth: {

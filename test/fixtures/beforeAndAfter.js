@@ -10,7 +10,7 @@ var mongoConfig = {
   "mongo": {
       "enabled": true,
       "name": "fh-mbaas",
-      "host": "localhost",
+      "host": process.env.MONGODB_HOST || "localhost",
       "port": 27017,
       "replicaset_name": null,
       "auth": {
