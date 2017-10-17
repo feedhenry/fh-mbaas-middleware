@@ -1,6 +1,6 @@
 {
   "name": "fh-mbaas-middleware",
-  "version": "2.2.8",
+  "version": "2.3.0",
   "description": "Module for fh-mbaas as a service",
   "main": "index.js",
   "author": "FeedHenry",
