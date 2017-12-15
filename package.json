@@ -1,6 +1,6 @@
 {
   "name": "fh-mbaas-middleware",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Module for fh-mbaas as a service",
   "main": "index.js",
   "author": "FeedHenry",
@@ -20,7 +20,7 @@
     "fh-amqp-js": "0.7.1",
     "fh-cls-mongoose": "2.1.1",
     "fh-logger": "0.5.0",
-    "moment": "2.16.0",
+    "moment": "2.19.3",
     "mongodb": "2.1.18",
     "mongoose": "4.11.14",
     "mongoose-filter-denormalize": "https://registry.npmjs.org/mongoose-filter-denormalize/-/mongoose-filter-denormalize-0.2.1.tgz",
