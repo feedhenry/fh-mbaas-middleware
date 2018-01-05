@@ -20,7 +20,7 @@ const EVENT_ORIG_URL = "original_url";
 var undertest = require('../../lib/middleware/events');
 
 
-
+//[db-inspect]  makes db calls for crud operations for events
 module.exports = {
   "test_create_event_OK" : function (done){
     var eventModel = models.getModels().Event;

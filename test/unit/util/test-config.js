@@ -8,6 +8,7 @@ exceptionMessages.MISSING_CONFIG_SECTION = "Config section %s missing!";
 exceptionMessages.UNPARSABLE_CONFIG = "The config file %s was unparsable %s!";
 exceptionMessages.CONFIG_REMOVED = "The Config setting: %s should be removed!";
 
+//[db-inspect]  makes db calls for testing config
 
 exports.it_should_pass_config = function(finish) {
   var cfg = {

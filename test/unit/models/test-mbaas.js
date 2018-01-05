@@ -22,6 +22,7 @@ var MockMongo = function(success){
   this.success = success;
   this.created = false;
 };
+//[db-inspect]  makes db calls for crud operations for mbaas data
 
 MockMongo.prototype.createDb = function(cfg, user, pass, name, cb){
   assert.ok(user.length > 0, 'invalid db user name : ' + user);

@@ -37,6 +37,7 @@ var cfg = {
   url: "https://url.to.service.app"
 };
 
+//[db-inspect] makes db calls for crud operations for app mbaas data
 
 exports.it_should_create = function(finish){
   mockgoose.reset();
