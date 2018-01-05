@@ -16,7 +16,7 @@ const TEST_EMIAL_CONTENT = "some email content";
 
 
 var undertest = require('../../lib/middleware/notifications');
-
+//[db-inspect]  makes db calls for crud operations for notifications
 module.exports = {
   "test_list_notifications": function (done){
     async.waterfall([

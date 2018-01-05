@@ -2,6 +2,8 @@ var assert = require('assert');
 var proxyquire= require('proxyquire');
 var util = require('util');
 
+//[db-inspect]  makes mongo connection for testing 
+
 exports.it_should_create_mongo_db = function(cb) {
 
   // monsterous mock object for mongo driver itself

@@ -43,6 +43,7 @@ var appmbaas = sinon.stub();
 
 var models = proxyquire('../../../lib/models.js',{mongoose: mongoose , './models/mbaas.js':mbaas , './models/appMbaas.js':appmbaas});
 var assert = require('assert');
+//[db-inspect]  makes db calls for testing models 
 
 exports.test_app_models = function(finish){
 

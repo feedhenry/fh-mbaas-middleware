@@ -43,7 +43,7 @@ var crashData = {
   "dyno":"testing-dev"
 };
 
-
+//[db-inspect]  makes db calls for crud operations for crash data
 var mock = function (getData){
   return {
     '../../models': {

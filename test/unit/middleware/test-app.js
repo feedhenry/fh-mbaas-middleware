@@ -31,6 +31,7 @@ var mockRequest = {
 
 log.defaultLogger();
 
+//[db-inspect]  makes db calls for crud operations for app data
 module.exports = {
   test_find_app: function(finish){
     var mockFindModel = sinon.stub().callsArgWith(1, undefined, {

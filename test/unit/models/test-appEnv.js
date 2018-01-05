@@ -30,6 +30,7 @@ var config = {
 var appEnv = require('../../../lib/models/appEnv');
 var assert = require('assert');
 
+//[db-inspect]  makes db calls for crud operations for app envs 
 exports.test_app_envs = function(finish){
   var params = {
     mbaas: {dbConf: dbConf},

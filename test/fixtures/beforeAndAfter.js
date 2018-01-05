@@ -40,7 +40,7 @@ var mongoConfig = {
 };
 
 var dbConn;
-
+//[db-inspect]  makes mongo connection for testing - some interaction via fh-config
 module.exports = {
   "before": function (done){
     console.log("running integration set up");

@@ -12,7 +12,7 @@ const TEST_EVENT_CATEGORY = "alert_category";
 const TEST_EVENT_SEVERITY = "info";
 const TEST_UID = "someguid";
 const TEST_ENV = "dev";
-
+//[db-inspect] makes db calls for crud operations for alerts
 module.exports = {
   
   "test_should_create_alert_in_db" : function (finish){
