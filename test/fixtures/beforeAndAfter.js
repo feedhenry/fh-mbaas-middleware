@@ -23,6 +23,22 @@ var mongoConfig = {
         "pass": "password"
       }
  },
+ "mongo_userdb": {
+      "enabled": true,
+      "name": "fh-mbaas",
+      "host": process.env.MONGODB_HOST || "localhost",
+      "port": 27017,
+      "replicaset_name": null,
+      "auth": {
+        "enabled": false,
+        "user": "",
+        "pass": ""
+      },
+      "admin_auth": {
+        "user": "u-mbaas",
+        "pass": "password"
+      }
+ },
   "logger": {
     "name": "mbaas",
     "streams": [{
