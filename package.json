@@ -36,9 +36,9 @@
     "underscore": "1.8.3"
   },
   "devDependencies": {
-    "fh-config": "^1.0.0",
+    "fh-config": "^2.0.0",
     "grunt": "^1.0.1",
-    "grunt-fh-build": "^1.0.2",
+    "grunt-fh-build": "^2.0.1",
     "istanbul": "0.4.5",
     "mocha": "3.1.2",
     "mockgoose": "^2.0.1",
